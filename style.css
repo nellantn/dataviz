@@ -326,7 +326,7 @@ select {
     display: none;
   }
   .blocchart{
-    height: 140vh;
+    height: 170vh;
   }
   .blocchartctnt{
     flex-direction: column;
@@ -415,7 +415,7 @@ footer{
 footer>p{
   text-align: center;
   color: #252121;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 footer>p>a{
