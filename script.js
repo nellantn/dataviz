@@ -98,69 +98,53 @@ d3.csv("data.csv", function(data) {
         update(selectedOption)
 
           var source = document.getElementById('audio');
-          var labelaudio = document.getElementById('labelaudio');
+          var audiospotify = document.querySelector('.audiospotify');
 
           if (document.getElementById('selectButton').value == "Ska/Reggae/Dancehall"){
-            source.setAttribute("src", "audio/Ska:Reggae:Dancehall/Bob Marley - Natural Mystic.mp3");
-            labelaudio.innerHTML = 'Bob Marley - Natural Mystic';
-          }else{
-            labelaudio.innerHTML = "";
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/64xslN8DB3jG1tK2l3H1mA?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Metal"){
-            source.setAttribute("src", "audio/Metal/Metallica Master of Puppets.mp3");
-            labelaudio.innerHTML = 'Metallica - Master of Puppets';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2MuWTIM3b0YEAskbeeFE1i?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Punk"){
-            source.setAttribute("src", "audio/Punk/The Clash - London Calling.mp3");
-            labelaudio.innerHTML = 'The Clash - London Calling';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/124Y9LPRCAz3q2OP0iCvcJ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Blues"){
-            source.setAttribute("src", "audio/Blues/Christian Willisohn - Blues In My Bottle.mp3");
-            labelaudio.innerHTML = 'Christian Willisohn - Blues In My Bottle';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2W8lZ7Jl3HG3sILlXcNyB8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Latin"){
-            source.setAttribute("src", "audio/Latin/Luis Fonsi - Despacito ft Daddy Yankee.mp3");
-            labelaudio.innerHTML = 'Luis Fonsi - Despacito ft Daddy Yankee';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6habFhsOp2NvshLv26DqMb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
+
           if (document.getElementById('selectButton').value == "Jazz"){
-            source.setAttribute("src", "audio/Jazz/Ray Charles - Georgia On My Mind.mp3");
-            labelaudio.innerHTML = 'Ray Charles - Georgia On My Mind';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/47mA6f44zxLtdATOoY7GjN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "House/Electronic/Trance"){
-            source.setAttribute("src", "audio/House:Electronic:Trance/Daft Punk - One More Time.mp3");
-            labelaudio.innerHTML = 'Daft Punk - One More Time';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DiWol3AO6WpXZgp0goxAV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Folk"){
-            source.setAttribute("src", "audio/Folk/The Pogues - If I Should Fall From Grace With God.mp3");
-            labelaudio.innerHTML = 'The Pogues - If I Should Fall From Grace With God';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Z5rTFsClLFgsIGuZ7Ymt2?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Soul"){
-            source.setAttribute("src", "audio/Soul/Aretha Franklin - I Never Loved A Man (The Way I Love You).mp3");
-            labelaudio.innerHTML = 'Aretha Franklin - I Never Loved A Man (The Way I Love You)';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1hES47PrbU8GPTI5A9lsr0?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "R&B"){
-            source.setAttribute("src", "audio/R&B/Gnarls Barkley - Crazy.mp3");
-            labelaudio.innerHTML = 'Gnarls Barkley - Crazy';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1vxw6aYJls2oq3gW0DujAo?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Rock & Roll"){
-            source.setAttribute("src", "audio/Rock & Roll/Elvis Presley - That's All Right.mp3");
-            labelaudio.innerHTML = "Elvis Presley - That's All Right";
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1l5LxX34FgwqlhvMb7BPXq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Rock"){
-            source.setAttribute("src", "audio/Rock/Led Zeppelin - Stairway To Heaven.mp3");
-            labelaudio.innerHTML = 'Led Zeppelin - Stairway To Heaven';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DANcJuMamcL9NyYkEWWTq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Country"){
-            source.setAttribute("src", "audio/Country/Willie Nelson - On The Road Again.mp3");
-            labelaudio.innerHTML = 'Willie Nelson - On The Road Again';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2GyH5rvdnfkjzsTFaWrrov?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Pop"){
-            source.setAttribute("src", "audio/Pop/Michael Jackson - Billie Jean.mp3");
-            labelaudio.innerHTML = 'Michael Jackson - Billie Jean';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7J1uxwnxfQLu4APicE5Rnj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
           if(document.getElementById('selectButton').value == "Rap/Hip-Hop"){
-            source.setAttribute("src", "audio/Rap:Hip-Hop/Eminem - Lose Yourself.mp3");
-            labelaudio.innerHTML = 'Eminem - Lose Yourself';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7MJQ9Nfxzh8LPZ9e9u68Fq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
           }
     })
 
