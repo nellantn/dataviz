@@ -44,7 +44,7 @@ d3.csv("data.csv", function(data) {
       .style("text-anchor", "middle")
       .style("font-size","0.9em")
       .style("font-weight","bold")
-      .text("Années");
+      .text("Année");
 
     // Ajout de l'axe des ordonnées
     var y = d3.scaleLinear()
@@ -60,7 +60,7 @@ d3.csv("data.csv", function(data) {
       .style("text-anchor", "middle")
       .style("font-size","0.9em")
       .style("font-weight","bold")
-      .text("Places dans le Billboard Hot 100 en %");    
+      .text("Place dans le Billboard Hot 100 en %");    
 
 
     // Initialisation du graphique avec la première donnée de la liste déroulante
