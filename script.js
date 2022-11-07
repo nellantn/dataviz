@@ -44,7 +44,7 @@ d3.csv("data.csv", function(data) {
       .style("text-anchor", "middle")
       .style("font-size","0.9em")
       .style("font-weight","bold")
-      .text("Année");
+      .text("Années");
 
     // Ajout de l'axe des ordonnées
     var y = d3.scaleLinear()
