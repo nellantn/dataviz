@@ -1,5 +1,8 @@
 AOS.init();
 
+// Source : https://d3-graph-gallery.com
+
+// Graphique
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 750 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -101,50 +104,50 @@ d3.csv("data.csv", function(data) {
           var audiospotify = document.querySelector('.audiospotify');
 
           if (document.getElementById('selectButton').value == "Ska/Reggae/Dancehall"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/64xslN8DB3jG1tK2l3H1mA?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/64xslN8DB3jG1tK2l3H1mA?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Ska/Reggae/Dancehall"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Metal"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2MuWTIM3b0YEAskbeeFE1i?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2MuWTIM3b0YEAskbeeFE1i?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Metal"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Punk"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/124Y9LPRCAz3q2OP0iCvcJ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/124Y9LPRCAz3q2OP0iCvcJ?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Punk"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Blues"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2W8lZ7Jl3HG3sILlXcNyB8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2W8lZ7Jl3HG3sILlXcNyB8?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Blues"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Latin"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6habFhsOp2NvshLv26DqMb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6habFhsOp2NvshLv26DqMb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Latin"></iframe>';
           }
 
           if (document.getElementById('selectButton').value == "Jazz"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/47mA6f44zxLtdATOoY7GjN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/47mA6f44zxLtdATOoY7GjN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Jazz"></iframe>';
           }
           if (document.getElementById('selectButton').value == "House/Electronic/Trance"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DiWol3AO6WpXZgp0goxAV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DiWol3AO6WpXZgp0goxAV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="House/Electronic/Trance"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Folk"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Z5rTFsClLFgsIGuZ7Ymt2?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1Z5rTFsClLFgsIGuZ7Ymt2?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Folk"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Soul"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1hES47PrbU8GPTI5A9lsr0?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1hES47PrbU8GPTI5A9lsr0?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Soul"></iframe>';
           }
           if (document.getElementById('selectButton').value == "R&B"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1vxw6aYJls2oq3gW0DujAo?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1vxw6aYJls2oq3gW0DujAo?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="R&B"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Rock & Roll"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1l5LxX34FgwqlhvMb7BPXq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1l5LxX34FgwqlhvMb7BPXq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Rock & Roll"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Rock"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DANcJuMamcL9NyYkEWWTq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0DANcJuMamcL9NyYkEWWTq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Rock"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Country"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2GyH5rvdnfkjzsTFaWrrov?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2GyH5rvdnfkjzsTFaWrrov?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Country"></iframe>';
           }
           if (document.getElementById('selectButton').value == "Pop"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7J1uxwnxfQLu4APicE5Rnj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7J1uxwnxfQLu4APicE5Rnj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Pop"></iframe>';
           }
           if(document.getElementById('selectButton').value == "Rap/Hip-Hop"){
-            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7MJQ9Nfxzh8LPZ9e9u68Fq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+            audiospotify.innerHTML = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7MJQ9Nfxzh8LPZ9e9u68Fq?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Rap/Hip-Hop"></iframe>';
           }
     })
 
